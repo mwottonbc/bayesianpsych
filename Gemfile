@@ -9,9 +9,9 @@ gem 'classifier'
 gem 'madeleine'
 
 
-git 'git://github.com/romanbsd/rb-gsl.git' do
-  gem 'gsl'
-end
+#git 'git://github.com/romanbsd/rb-gsl.git' do
+#  gem 'gsl'
+#end
 
 #frontend only
 gem 'sinatra'

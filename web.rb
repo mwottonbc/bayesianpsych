@@ -8,6 +8,10 @@ configure do
   ORACLE = SnapshotMadeleine.new("bayes_data", YAML).system
 end
 
+get '/' do
+  redirect '/index.html'
+end
+  
 get '/happy.json' do
   puts params.inspect
   { :classification => ORACLE.classify(params['text']) }.to_json

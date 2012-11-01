@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby '1.9.3'
 #gem 'KayakoClient'
-#gem 'awesome_print'
+gem 'awesome_print'
 #gem 'httpclient'
 #gem 'libxml-ext'
 # gem 'alchemy-api-rb', :require => 'alchemy_api'

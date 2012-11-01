@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/romanbsd/rb-gsl.git
+  revision: fd601dfcd0b05319fa8f66f1e73cd711d5ba9ed9
+  specs:
+    gsl (1.14.7)
+      narray (>= 0.5.9)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -6,6 +13,7 @@ GEM
       fast-stemmer (>= 1.0.0)
     fast-stemmer (1.0.1)
     madeleine (0.7.3)
+    narray (0.6.0.1)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -21,5 +29,6 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   classifier
+  gsl!
   madeleine
   sinatra
